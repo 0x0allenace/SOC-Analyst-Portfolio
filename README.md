@@ -165,9 +165,9 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 
 ### 🎯 MITRE ATT&CK Mapping
 
-| Technique | ATT&CK ID |
+| Technique | ID |
 
-|-----------|-----------|
+|-----------|----|
 
 | Credential Dumping | T1003 |
 
@@ -540,14 +540,18 @@ Latest Videos
 ## 📈 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=0x0allenace&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=0x0allenace&theme=tokyonight&hide_border=true" height="170"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=0x0allenace&show_icons=true&theme=github_dark&hide_border=true"/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=0x0allenace&theme=github-dark&hide_border=true"/>
+
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x0allenace&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
 
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x0allenace&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
 
 ## ⭐ Thank You
 
