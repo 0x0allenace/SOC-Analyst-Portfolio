@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Allen Ace Banner" width="100%">
+</p>
+
+<br>
+
 # 🛡️ Allen Ace
 
 ### SOC Analyst | Threat Hunter | Detection Engineer
@@ -60,8 +66,9 @@ enterprise-style investigations aligned with the MITRE ATT&CK framework.
 
 ## 🔗 Connect
 
-LinkedIn:
-https://www.linkedin.com/in/allen-ace-soc-analyst/
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/allen-ace-soc-analyst/
+- 💻 **GitHub:** https://github.com/0x0allenace
+
 
 GitHub:
 https://github.com/0x0allenace
@@ -86,7 +93,7 @@ https://github.com/0x0allenace
 > Enterprise-style investigations demonstrating real-world incident response, threat hunting, and forensic analysis.
 
 
-# 🔎 Threat Hunting
+## 🔎 Threat Hunting
 
 > Leveraging SIEM technologies to proactively identify, investigate, and respond to adversary behavior using real-world datasets and the MITRE ATT&CK framework.
 
@@ -158,15 +165,16 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 
 ### 🎯 MITRE ATT&CK Mapping
 
-| Technique | ID |
+| Technique | ATT&CK ID |
 
-|-----------|----|
+|-----------|-----------|
 
 | Credential Dumping | T1003 |
 
 | Remote Services | T1021 |
 
 | Lateral Tool Transfer | T1570 |
+
 
 ### 🔍 Key Findings
 
@@ -185,8 +193,10 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 ![Enterprise Incident Response](images/download-hunt-results.png)
 
 ### 🔗 Repository
-🔗 **Repository:** [View Project](https://github.com/0x0allenace/ecorp-initial-dfir-lab)
-🔗 **Repository:** [View Project](https://github.com/0x0allenace/velociraptor-forensic-triage-kape)
+
+- [Enterprise DFIR Lab](https://github.com/0x0allenace/ecorp-initial-dfir-lab)
+
+- [Velociraptor KAPE Forensic Triage](https://github.com/0x0allenace/velociraptor-forensic-triage-kape)
 
 ### 💡 Lessons Learned
 
@@ -235,12 +245,9 @@ Analyze suspicious email attachments within a controlled environment to determin
 
 ### 🎯 MITRE ATT&CK Mapping
 
-| Technique | ID |
-
-|-----------|----|
-
+| Technique | ATT&CK ID |
+|-----------|-----------|
 | Phishing | T1566 |
-
 | User Execution | T1204 |
 
 ### 🔍 Key Findings
@@ -285,12 +292,12 @@ Analyze suspicious email attachments within a controlled environment to determin
 - Email IOC Extraction
 
 
-# ⚙ Engineering
+# ⚙️ Engineering Projects
 
-> Building practical security tooling, analytics, and detection content.
+> Building practical security tooling, detection content, and analytics that support enterprise security operations.
 
 
-# 🤖 Security Analytics & Machine Learning
+## 🤖 Security Analytics & Machine Learning
 
 > Applying machine learning techniques to improve behavioral threat detection and anomaly identification in enterprise environments.
 
@@ -511,14 +518,14 @@ Latest Videos
 
 # 📊 Portfolio Statistics
 
-| Portfolio Highlights | |
-|----------------------|----------------:|
+| Metric | Value |
+|--------|------:|
 | Security Investigations | 5+ |
 | MITRE ATT&CK Techniques Covered | 12+ |
 | Technical Articles | 4 |
 | Security Tools Developed | 1 |
 | Video Walkthroughs | 1 |
-| Programming Languages | Python, PowerShell |
+| Languages | Python, PowerShell |
 
 # 📫 Contact
 
@@ -532,9 +539,14 @@ Latest Videos
 
 ## 📈 GitHub Statistics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0x0allenace&show_icons=true&theme=github_dark)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=0x0allenace&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=0x0allenace&theme=tokyonight&hide_border=true" height="170"/>
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0x0allenace&layout=compact&theme=github_dark)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x0allenace&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
 
 ## ⭐ Thank You
@@ -544,3 +556,13 @@ Thank you for visiting my cybersecurity portfolio.
 If you found these investigations useful, feel free to connect with me on LinkedIn, follow my work on Medium, or explore my repositories on GitHub.
 
 I am always open to discussing cybersecurity, threat hunting, DFIR, and remote Security Operations opportunities.
+
+
+------------------------------------------------
+ Allen Ace
+ SOC Analyst • Threat Hunter • Detection Engineer
+
+      Splunk | Elastic | DFIR | Python
+
+ Detect • Investigate • Respond • Defend
+------------------------------------------------
