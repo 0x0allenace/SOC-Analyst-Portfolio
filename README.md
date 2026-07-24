@@ -70,10 +70,6 @@ enterprise-style investigations aligned with the MITRE ATT&CK framework.
 - 💻 **GitHub:** https://github.com/0x0allenace
 
 
-GitHub:
-https://github.com/0x0allenace
-
-
 ## 🛠️ Technical Skills
 
 | Category | Technologies |
@@ -166,13 +162,9 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 ### 🎯 MITRE ATT&CK Mapping
 
 | Technique | ID |
-
 |-----------|----|
-
 | Credential Dumping | T1003 |
-
 | Remote Services | T1021 |
-
 | Lateral Tool Transfer | T1570 |
 
 
