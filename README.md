@@ -43,6 +43,7 @@ Each project is designed to demonstrate the investigative methodology, tooling, 
 - [Technical Skills](#technical-skills)
 - [Investigations](#-investigations)
 - [Threat Hunting](#-threat-hunting)
+- [Malware Analysis](#-malware-analysis)
 - [Email Security](#-email-security)
 - [Engineering](#-engineering)
 - [Security Analytics & Machine Learning](#-security-analytics--machine-learning)
@@ -63,6 +64,16 @@ SOC Analyst with hands-on experience in Threat Hunting, Digital
 Forensics & Incident Response (DFIR), Detection Engineering, Security
 Analytics, and Python-based security tooling. My work focuses on
 enterprise-style investigations aligned with the MITRE ATT&CK framework.
+
+## Portfolio Highlights
+
+- 6 Enterprise-style Security Investigations
+- Threat Hunting using Splunk & MITRE ATT&CK
+- Malware Analysis & Digital Forensics
+- Machine Learning for Behavioural Threat Detection
+- Python Security Tool Development
+- Technical Writing on Medium
+- Cybersecurity Walkthrough Videos
 
 ## 🔗 Connect
 
@@ -91,7 +102,7 @@ enterprise-style investigations aligned with the MITRE ATT&CK framework.
 
 ## 🔎 Threat Hunting
 
-> Leveraging SIEM technologies to proactively identify, investigate, and respond to adversary behavior using real-world datasets and the MITRE ATT&CK framework.
+> Leveraging SIEM technologies to proactively identify, investigate, and respond to adversary behaviour using real-world datasets and the MITRE ATT&CK framework.
 
 ## Threat Hunting – Reconnaissance
 
@@ -148,15 +159,10 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 ### 🛠️ Technologies
 
 - Velociraptor
-
 - Active Directory
-
 - pfSense
-
 - Windows Event Logs
-
 - KAPE
-
 - Sysmon
 
 ### 🎯 MITRE ATT&CK Mapping
@@ -171,11 +177,8 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 ### 🔍 Key Findings
 
 - Conducted enterprise-wide investigation.
-
 - Collected forensic artifacts.
-
 - Contained compromised hosts.
-
 - Documented incident response workflow.
 
 ### 📸 Screenshots
@@ -187,7 +190,6 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 ### 🔗 Repository
 
 - [Enterprise DFIR Lab](https://github.com/0x0allenace/ecorp-initial-dfir-lab)
-
 - [Velociraptor KAPE Forensic Triage](https://github.com/0x0allenace/velociraptor-forensic-triage-kape)
 
 ### 💡 Lessons Learned
@@ -201,17 +203,11 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 ## 🚧 Coming Soon
 
 - Memory Forensics
-
 - Registry Forensics
-
 - Disk Forensics
-
 - Windows Artifact Analysis
-
 - Timeline Analysis
-
 - KAPE Forensic Triage
-
 - Volatility Memory Analysis
 
 
@@ -228,11 +224,8 @@ Analyze suspicious email attachments within a controlled environment to determin
 ### 🛠️ Technologies
 
 - VirusTotal
-
 - PE Studio
-
 - File Signature Analysis
-
 - Static Analysis
 
 ### 🎯 MITRE ATT&CK Mapping
@@ -245,11 +238,8 @@ Analyze suspicious email attachments within a controlled environment to determin
 ### 🔍 Key Findings
 
 - Verified true file type.
-
 - Examined embedded artifacts.
-
-- Assessed malicious behavior.
-
+- Assessed malicious behaviour.
 - Documented findings.
 
 ### 📸 Screenshots
@@ -270,17 +260,68 @@ Analyze suspicious email attachments within a controlled environment to determin
 - Reinforced understanding of phishing attack delivery mechanisms and malicious attachments.
 - Enhanced the ability to correlate file artifacts with MITRE ATT&CK techniques during incident investigations.
 
+# 🦠 Malware Analysis
+
+> Static analysis of Windows Portable Executable (PE) malware samples to identify Indicators of Compromise (IOCs), suspicious functionality, and attacker techniques without executing malicious code.
+
+---
+
+## 📌 Static Malware Analysis Report
+
+### 🎯 Objective
+
+Perform static analysis on suspicious Windows PE files to identify malicious characteristics, extract Indicators of Compromise (IOCs), and document findings using an enterprise-style malware analysis methodology.
+
+### 🛠️ Technologies
+
+- PEStudio
+- Detect It Easy (DIE)
+- FLOSS
+- Strings
+- VirusTotal
+- Hash Analysis
+- Windows PE Format
+
+### 🎯 MITRE ATT&CK Mapping
+
+| Technique | ID |
+|-----------|----|
+| Malware | T1587 |
+| Masquerading | T1036 |
+| Obfuscated Files or Information | T1027 |
+
+### 🔍 Key Findings
+
+- Identified suspicious PE characteristics.
+- Extracted file hashes and Indicators of Compromise.
+- Reviewed imported Windows API functions.
+- Analyzed embedded strings and metadata.
+- Documented suspicious behaviours without executing the samples.
+
+### 📸 Screenshots
+
+![Static Malware Analysis](images/capa-capabilities.png)
+
+![Static Malware Analysis](images/pestudio-strings.png)
+
+![Static Malware Analysis](images/floss-decoded.png)
+
+🔗 **Repository:** [Static Malware Analysis Report](https://github.com/0x0allenace/static-malware-analysis-report)
+
+### 💡 Lessons Learned
+
+- Strengthened Windows PE file analysis techniques.
+- Improved malware triage methodology using static analysis.
+- Reinforced IOC extraction and documentation workflows.
+- Enhanced understanding of executable structures and suspicious artifacts.
+
 
 ## 🚧 Coming Soon
 
 - Email Header Analysis
-
 - Email Body Analysis
-
 - Business Email Compromise Investigation
-
 - SPF / DKIM / DMARC Validation
-
 - Email IOC Extraction
 
 
@@ -291,45 +332,35 @@ Analyze suspicious email attachments within a controlled environment to determin
 
 ## 🤖 Security Analytics & Machine Learning
 
-> Applying machine learning techniques to improve behavioral threat detection and anomaly identification in enterprise environments.
+> Applying machine learning techniques to improve behavioural threat detection and anomaly identification in enterprise environments.
 
 
-## 📌 Behavioral Anomaly Detection
+## 📌 Behavioural Anomaly Detection
 
 ### 🎯 Objective
 
-Develop an unsupervised machine learning pipeline for identifying anomalous behavior within synthetic enterprise security logs.
+Develop an unsupervised machine learning pipeline for identifying anomalous behaviuor within synthetic enterprise security logs.
 
 ### 🛠️ Technologies
 
 - Python
-
 - Pandas
-
 - Scikit-learn
-
 - PyTorch
-
 - Jupyter Notebook
 
 ### 🤖 Models
 
 - Isolation Forest
-
 - Local Outlier Factor
-
 - One-Class SVM
-
 - Autoencoder
 
 ### 🔍 Key Findings
 
 - Generated synthetic enterprise log datasets.
-
-- Engineered behavioral security features.
-
+- Engineered behavioural security features.
 - Compared multiple anomaly detection algorithms.
-
 - Evaluated model performance using multiple visualizations.
 
 ### 📸 Screenshots
@@ -348,18 +379,14 @@ Develop an unsupervised machine learning pipeline for identifying anomalous beha
 - Improved feature engineering techniques for security event analysis.
 - Strengthened understanding of unsupervised machine learning models for anomaly detection.
 - Learned to evaluate and compare multiple detection algorithms using performance metrics and visualizations.
-- Enhanced the ability to translate behavioral analytics into practical threat detection use cases.
+- Enhanced the ability to translate behavioural analytics into practical threat detection use cases.
 
 ## 🚧 Coming Soon
 
-- User & Entity Behavior Analytics (UEBA)
-
+- User & Entity Behaviour Analytics (UEBA)
 - Insider Threat Detection
-
 - Time-Series Threat Detection
-
 - Explainable AI for Security
-
 - Graph-Based Threat Analytics
 
 
@@ -378,19 +405,14 @@ Develop a Python-based file signature analyzer capable of detecting true file ty
 ### 🛠️ Technologies
 
 - Python
-
 - Magic Bytes
-
 - Binary Analysis
 
 ### ⚙️ Features
 
 - True file type detection
-
 - Malware triage support
-
 - Reverse engineering assistance
-
 - DFIR artifact validation
 
 
@@ -407,15 +429,10 @@ Develop a Python-based file signature analyzer capable of detecting true file ty
 ## 🚧 Coming Soon
 
 - IOC Extractor
-
 - IOC Enrichment Tool
-
 - Log Parser
-
 - Hash Analyzer
-
 - Threat Intelligence Aggregator
-
 - Detection Rule Generator
 
 
@@ -426,17 +443,11 @@ Develop a Python-based file signature analyzer capable of detecting true file ty
 ### 📚 Planned Projects
 
 - Sigma Detection Library
-
 - Splunk Detection Rules (SPL)
-
 - Microsoft Sentinel Detection Rules (KQL)
-
 - Elastic Detection Rules
-
 - YARA Rules
-
 - Detection-as-Code
-
 - ATT&CK Coverage Matrix
 
 
@@ -495,28 +506,27 @@ View all articles → [Medium](https://allenace.medium.com/)
 
 Latest Videos
 
-- [Blue Team Detection Lab](https://www.youtube.com/watch?v=XnsfWq4TmLQ)
-   
+- [Blue Team Detection Lab](https://www.youtube.com/watch?v=XnsfWq4TmLQ)   
 - Mythic C2 Lab *(planned)*
-
 - Threat Hunting *(planned)*
-
 - Active Directory Lab *(planned)*
-
 - Elastic SIEM *(planned)*
-
 - DFIR Walkthrough *(planned)*
 
 
-# 📊 Portfolio Statistics
+## 📊 Portfolio Statistics
 
 | Metric | Value |
 |--------|------:|
-| Security Investigations | 5+ |
-| MITRE ATT&CK Techniques Covered | 12+ |
-| Technical Articles | 4 |
+| Security Investigations | 6 |
+| Threat Hunting Investigations | 2 |
+| DFIR Investigations | 2 |
+| Malware Analysis Reports | 1 |
+| Machine Learning Projects | 1 |
 | Security Tools Developed | 1 |
-| Video Walkthroughs | 1 |
+| Technical Articles Published | 70+ |
+| Video Walkthroughs | 5 |
+| MITRE ATT&CK Techniques Covered | 12+ |
 | Languages | Python, PowerShell |
 
 # 📫 Contact
@@ -531,17 +541,23 @@ Latest Videos
 
 ## 📈 GitHub Statistics
 
+![Visitors](https://komarev.com/ghpvc/?username=0x0allenace&color=blue)
+
+![GitHub Stars](https://img.shields.io/github/stars/0x0allenace/SOC-Analyst-Portfolio?style=social)
+
+![GitHub Followers](https://img.shields.io/github/followers/0x0allenace?style=social)
+
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=0x0allenace&show_icons=true&theme=github_dark&hide_border=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=0x0allenace&show_icons=true&theme=github_dark&hide_border=true"/>
 
-<img height="170" src="https://streak-stats.demolab.com?user=0x0allenace&theme=github-dark&hide_border=true"/>
+<img height="165" src="https://streak-stats.demolab.com?user=0x0allenace&theme=github-dark&hide_border=true"/>
 
 </p>
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x0allenace&layout=compact&theme=github_dark&hide_border=true"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x0allenace&layout=compact&theme=github_dark&hide_border=true"/>
 
 </p>
 
@@ -552,13 +568,3 @@ Thank you for visiting my cybersecurity portfolio.
 If you found these investigations useful, feel free to connect with me on LinkedIn, follow my work on Medium, or explore my repositories on GitHub.
 
 I am always open to discussing cybersecurity, threat hunting, DFIR, and remote Security Operations opportunities.
-
-
-------------------------------------------------
- Allen Ace
- SOC Analyst • Threat Hunter • Detection Engineer
-
-      Splunk | Elastic | DFIR | Python
-
- Detect • Investigate • Respond • Defend
-------------------------------------------------
