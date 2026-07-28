@@ -490,15 +490,11 @@ Develop a Python-based file signature analyzer capable of detecting true file ty
 Latest Publications
 
 - [Locking Down Against Bad USB: Detection and Defense Strategies](https://allenace.medium.com/locking-down-against-bad-usb-detection-and-defense-strategies-daf329415393?sharedUserId=allenace)
-
 - [Wireshark: Getting to Know Wireshark](https://allenace.medium.com/wireshark-getting-to-know-wireshark-f8e19379cc50)
-
 - [Discovering Security Weaknesses: A Practical Guide to Vulnerability Scanning](https://allenace.medium.com/discovering-security-weaknesses-a-practical-guide-to-vulnerability-scanning-30b2785b828f)
-
 - [MemProcFS: The Game Changer in Memory Forensics](https://allenace.medium.com/memprocfs-the-game-changer-in-memory-forensics-463799a87aae)
-
+- [Static Malware Analysis of Suspicious Windows PE Samples: A Blue Team Investigation](https://medium.com/@allenace/static-malware-analysis-of-suspicious-windows-pe-samples-a-blue-team-investigation-6c1e1b178513)
 - Detection Engineering *(planned)*
-
 View all articles → [Medium](https://allenace.medium.com/)
 
 
