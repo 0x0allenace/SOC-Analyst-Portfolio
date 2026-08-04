@@ -318,7 +318,6 @@ Analyze the runtime behavior of a Windows malware sample within a controlled mal
 
 ---
 
-```markdown
 ### 🔄 Analysis Workflow
 
 - Initial malware triage
@@ -328,7 +327,7 @@ Analyze the runtime behavior of a Windows malware sample within a controlled mal
 - Network traffic analysis
 - IOC extraction
 - MITRE ATT&CK mapping
-```
+
 
 ### 🎯 MITRE ATT&CK Mapping
 
