@@ -65,9 +65,6 @@ Forensics & Incident Response (DFIR), Detection Engineering, Security
 Analytics, and Python-based security tooling. My work focuses on
 enterprise-style investigations aligned with the MITRE ATT&CK framework.
 
-Replace with
-
-```markdown
 
 ## Portfolio Highlights
 
@@ -79,10 +76,8 @@ Replace with
 - Python Security Automation
 - Technical Writing & Community Education
 
-```
 ---
 
-```markdown
 
 ## 🎯 Current Focus
 
@@ -91,10 +86,8 @@ Replace with
 - Malware Analysis
 - Digital Forensics (DFIR)
 - Python Security Automation
-```
----
 
-```markdown
+---
 
 # ⭐ Featured Projects
 
@@ -109,13 +102,12 @@ Replace with
 | Behavioral Anomaly Detection | Machine Learning | [View](https://github.com/0x0allenace/security-anomaly-project) |
 | File Signature Detector | Python Security Tool | [View](https://github.com/0x0allenace/file-signature-detector) |
 
-```
 ---
 
 ## 🔗 Connect
 
-- 🔗 [**LinkedIn:**](https://www.linkedin.com/in/allen-ace-soc-analyst/)
-- 💻 [**GitHub:**](https://github.com/0x0allenace)
+- 🔗 [**LinkedIn**](https://www.linkedin.com/in/allen-ace-soc-analyst/)
+- 💻 [**GitHub**](https://github.com/0x0allenace)
 
 ---
 
@@ -133,18 +125,11 @@ Replace with
 | Networking | Wireshark, TCP/IP |
 | Infrastructure | Active Directory, pfSense |
 
-```
----
-
-```markdown
 
 # 🛡️ Security Investigations
-
-```
 > Enterprise-style investigations demonstrating real-world incident response, threat hunting, and forensic analysis.
 
 ## 🔎 Threat Hunting
-
 > Leveraging SIEM technologies to proactively identify, investigate, and respond to adversary behavior using real-world datasets and the MITRE ATT&CK framework.
 
 ## Threat Hunting – Reconnaissance
@@ -461,11 +446,9 @@ Analyze suspicious email attachments within a controlled environment to determin
 - Email IOC Extraction
 
 
-```markdown
 
 # ⚙️ Security Engineering
 
-```
 > Building practical security tooling, detection content, and analytics that support enterprise security operations.
 
 ## 🤖 Security Analytics & Machine Learning
@@ -679,10 +662,10 @@ Latest Videos
 
 # 📫 Contact
 
-- 🔗 [**LinkedIn:**](https://www.linkedin.com/in/allen-ace-soc-analyst/)
-- 📖 [**Medium:**](https://allenace.medium.com)
-- 💻 [**GitHub:**](https://github.com/0x0allenace)
-- 🎥 [**YouTube:**](https://www.youtube.com/@PurpleOpsLab)
+- 🔗 [**LinkedIn**](https://www.linkedin.com/in/allen-ace-soc-analyst/)
+- 📖 [**Medium**](https://allenace.medium.com)
+- 💻 [**GitHub**](https://github.com/0x0allenace)
+- 🎥 [**YouTube**](https://www.youtube.com/@PurpleOpsLab)
 - 🐦 [**X:**](https://x.com/allen_acee)
 - 📧 **Email:** ejiakuallen@cyber-wizard.com
 
