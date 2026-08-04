@@ -628,6 +628,7 @@ Currently pursuing industry-recognized cybersecurity certifications.
 - [Discovering Security Weaknesses: A Practical Guide to Vulnerability Scanning](https://allenace.medium.com/discovering-security-weaknesses-a-practical-guide-to-vulnerability-scanning-30b2785b828f)
 - [MemProcFS: The Game Changer in Memory Forensics](https://allenace.medium.com/memprocfs-the-game-changer-in-memory-forensics-463799a87aae)
 - [Static Malware Analysis of Suspicious Windows PE Samples: A Blue Team Investigation](https://medium.com/@allenace/static-malware-analysis-of-suspicious-windows-pe-samples-a-blue-team-investigation-6c1e1b178513)
+- [Behavioral Malware Analysis: Investigating a Multi-Stage Malware Sample Inside an Isolated Lab](https://allenace.medium.com/behavioral-malware-analysis-investigating-a-multi-stage-malware-sample-inside-an-isolated-lab-fba44d152d5b)
 - Detection Engineering *(planned)*
 View all articles → [Medium](https://allenace.medium.com/)
 
