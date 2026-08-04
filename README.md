@@ -65,44 +65,87 @@ Forensics & Incident Response (DFIR), Detection Engineering, Security
 Analytics, and Python-based security tooling. My work focuses on
 enterprise-style investigations aligned with the MITRE ATT&CK framework.
 
+Replace with
+
+```markdown
+
 ## Portfolio Highlights
 
-- 6 Enterprise-style Security Investigations
-- Threat Hunting using Splunk & MITRE ATT&CK
-- Malware Analysis & Digital Forensics
-- Machine Learning for Behavioural Threat Detection
-- Python Security Tool Development
-- Technical Writing on Medium
-- Cybersecurity Walkthrough Videos
+- 8+ Enterprise Security Investigations
+- Static & Dynamic Malware Analysis
+- Digital Forensics & Incident Response (DFIR)
+- Threat Hunting with Splunk & Elastic
+- Security Analytics & Machine Learning
+- Python Security Automation
+- Technical Writing & Community Education
+
+```
+---
+
+```markdown
+
+## 🎯 Current Focus
+
+- Detection Engineering
+- Threat Hunting
+- Malware Analysis
+- Digital Forensics (DFIR)
+- Python Security Automation
+```
+---
+
+```markdown
+
+# ⭐ Featured Projects
+
+| Project | Focus Area | Repository |
+|---------|------------|------------|
+| Threat Hunting – Reconnaissance | Splunk Threat Hunting | [View](https://github.com/0x0allenace/Threat-Hunting-Recon) |
+| Enterprise DFIR Lab | Incident Response | [View](https://github.com/0x0allenace/ecorp-initial-dfir-lab) |
+| Velociraptor Forensic Triage | Endpoint Forensics | [View](https://github.com/0x0allenace/velociraptor-forensic-triage-kape) |
+| Suspicious Email Attachment Analysis | Email Security | [View](https://github.com/0x0allenace/suspicious-email-attachment-analysis) |
+| Static Malware Analysis | Malware Analysis | [View](https://github.com/0x0allenace/static-malware-analysis-report) |
+| Windows Malware Behavioral Analysis | Dynamic Malware Analysis | [View](https://github.com/0x0allenace/windows-malware-behavioral-analysis) |
+| Behavioral Anomaly Detection | Machine Learning | [View](https://github.com/0x0allenace/security-anomaly-project) |
+| File Signature Detector | Python Security Tool | [View](https://github.com/0x0allenace/file-signature-detector) |
+
+```
+---
 
 ## 🔗 Connect
 
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/allen-ace-soc-analyst/
-- 💻 **GitHub:** https://github.com/0x0allenace
+- 🔗 [**LinkedIn:**](https://www.linkedin.com/in/allen-ace-soc-analyst/)
+- 💻 [**GitHub:**](https://github.com/0x0allenace)
 
+---
 
 ## 🛠️ Technical Skills
 
-| Category | Technologies |
-|----------|--------------|
+| Domain | Technologies |
+|---------|--------------|
 | SIEM | Splunk, Elastic |
-| Detection | SPL, Sigma, MITRE ATT&CK |
+| Threat Hunting | SPL, MITRE ATT&CK |
 | DFIR | Velociraptor, KAPE, Autopsy, FTK Imager |
-| Network Analysis | Wireshark, TCP/IP |
+| Malware Analysis | PEStudio, Detect It Easy, FLOSS, Procmon, Wireshark |
+| Detection Engineering | Sigma, SPL |
 | Endpoint Security | Sysmon, Windows Event Logs |
-| Malware Analysis | Ghidra, PE Analysis |
-| Scripting | Python, PowerShell |
+| Programming | Python, PowerShell |
+| Networking | Wireshark, TCP/IP |
 | Infrastructure | Active Directory, pfSense |
 
+```
+---
 
-# 🛡 Investigations
+```markdown
 
+# 🛡️ Security Investigations
+
+```
 > Enterprise-style investigations demonstrating real-world incident response, threat hunting, and forensic analysis.
-
 
 ## 🔎 Threat Hunting
 
-> Leveraging SIEM technologies to proactively identify, investigate, and respond to adversary behaviour using real-world datasets and the MITRE ATT&CK framework.
+> Leveraging SIEM technologies to proactively identify, investigate, and respond to adversary behavior using real-world datasets and the MITRE ATT&CK framework.
 
 ## Threat Hunting – Reconnaissance
 
@@ -211,60 +254,13 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 - Volatility Memory Analysis
 
 
-# 📧 Email Security
-
-> Investigation of phishing emails, malicious attachments, and email-based attack vectors.
-
-## 📌 Suspicious Email Attachment Analysis
-
-### 🎯 Objective
-
-Analyze suspicious email attachments within a controlled environment to determine malicious intent and identify Indicators of Compromise.
-
-### 🛠️ Technologies
-
-- VirusTotal
-- PE Studio
-- File Signature Analysis
-- Static Analysis
-
-### 🎯 MITRE ATT&CK Mapping
-
-| Technique | ATT&CK ID |
-|-----------|-----------|
-| Phishing | T1566 |
-| User Execution | T1204 |
-
-### 🔍 Key Findings
-
-- Verified true file type.
-- Examined embedded artifacts.
-- Assessed malicious behaviour.
-- Documented findings.
-
-### 📸 Screenshots
-
-
-![Email Attachment Analysis](images/vt02.jpeg)
-![Email Attachment Analysis](images/triagebehavioralactivity.png)
-![Email Attachment Analysis](images/virustotal_report.png)
-
-
-🔗 **Repository:** [View Project](https://github.com/0x0allenace/suspicious-email-attachment-analysis)
-
-
-### 💡 Lessons Learned
-
-- Strengthened malware triage and static analysis techniques.
-- Improved identification and validation of Indicators of Compromise (IOCs).
-- Reinforced understanding of phishing attack delivery mechanisms and malicious attachments.
-- Enhanced the ability to correlate file artifacts with MITRE ATT&CK techniques during incident investigations.
 
 # 🦠 Malware Analysis
 
-> Static analysis of Windows Portable Executable (PE) malware samples to identify Indicators of Compromise (IOCs), suspicious functionality, and attacker techniques without executing malicious code.
+> Static and dynamic analysis of Windows malware samples to identify Indicators of Compromise (IOCs), attacker techniques, malicious behaviors, and forensic artifacts using enterprise-style malware analysis methodologies.
 
 ---
+
 
 ## 📌 Static Malware Analysis Report
 
@@ -296,7 +292,7 @@ Perform static analysis on suspicious Windows PE files to identify malicious cha
 - Extracted file hashes and Indicators of Compromise.
 - Reviewed imported Windows API functions.
 - Analyzed embedded strings and metadata.
-- Documented suspicious behaviours without executing the samples.
+- Documented suspicious behaviors without executing the samples.
 
 ### 📸 Screenshots
 
@@ -315,6 +311,146 @@ Perform static analysis on suspicious Windows PE files to identify malicious cha
 - Reinforced IOC extraction and documentation workflows.
 - Enhanced understanding of executable structures and suspicious artifacts.
 
+## 📌 Windows Malware Behavioral Analysis
+
+### 🎯 Objective
+
+Analyze the runtime behavior of a Windows malware sample within a controlled malware analysis laboratory to identify malicious activities, persistence mechanisms, process behavior, network communications, and Indicators of Compromise (IOCs).
+
+---
+
+### 🛠️ Technologies
+
+- REMnux
+- FLARE VM
+- Procmon
+- Process Explorer
+- Wireshark
+- FakeNet-NG
+- Regshot
+- Sysmon
+- Windows Event Logs
+
+---
+
+```markdown
+### 🔄 Analysis Workflow
+
+- Initial malware triage
+- Process analysis
+- Registry monitoring
+- Filesystem monitoring
+- Network traffic analysis
+- IOC extraction
+- MITRE ATT&CK mapping
+```
+
+### 🎯 MITRE ATT&CK Mapping
+
+| Technique | ATT&CK ID |
+|-----------|-----------|
+| User Execution | T1204 |
+| Command and Scripting Interpreter | T1059 |
+| Process Injection | T1055 |
+| Registry Run Keys / Startup Folder | T1547 |
+| File and Directory Discovery | T1083 |
+| Application Layer Protocol | T1071 |
+
+---
+
+### 🔍 Key Findings
+
+- Executed malware safely inside an isolated analysis environment.
+
+- Observed process creation and parent-child relationships.
+
+- Identified persistence mechanisms and registry modifications.
+
+- Analyzed filesystem activity and dropped artifacts.
+
+- Captured network communications and extracted Indicators of Compromise.
+
+- Documented behavioral findings using an enterprise malware analysis workflow.
+
+---
+
+### 📸 Screenshots
+
+![Process Tree](images/process-tree.png)
+
+![Procmon Activity](images/procmon-events.png)
+
+![Regshot Comparison](images/regshot.png)
+
+![FakeNet-NG Network Traffic](images/network-connections.png)
+
+![Wireshark Capture](images/wireshark-traffic.png)
+
+### 🔗 Repository
+
+[Windows Malware Behavioral Analysis](https://github.com/0x0allenace/windows-malware-behavioral-analysis)
+
+---
+
+### 💡 Lessons Learned
+
+- Strengthened dynamic malware analysis methodology.
+- Improved behavioral IOC identification and correlation.
+- Reinforced process, registry, and network activity analysis.
+- Enhanced understanding of malware execution and persistence techniques.
+
+---
+
+
+# 📧 Email Security
+
+> Investigation of phishing emails, malicious attachments, and email-based attack vectors.
+
+## 📌 Suspicious Email Attachment Analysis
+
+### 🎯 Objective
+
+Analyze suspicious email attachments within a controlled environment to determine malicious intent and identify Indicators of Compromise.
+
+### 🛠️ Technologies
+
+- VirusTotal
+- PE Studio
+- File Signature Analysis
+- Static Analysis
+
+### 🎯 MITRE ATT&CK Mapping
+
+| Technique | ATT&CK ID |
+|-----------|-----------|
+| Phishing | T1566 |
+| User Execution | T1204 |
+
+### 🔍 Key Findings
+
+- Verified true file type.
+- Examined embedded artifacts.
+- Assessed malicious behavior.
+- Documented findings.
+
+### 📸 Screenshots
+
+
+![Email Attachment Analysis](images/vt02.jpeg)
+![Email Attachment Analysis](images/triagebehavioralactivity.png)
+![Email Attachment Analysis](images/virustotal_report.png)
+
+
+🔗 **Repository:** [View Project](https://github.com/0x0allenace/suspicious-email-attachment-analysis)
+
+
+### 💡 Lessons Learned
+
+- Strengthened malware triage and static analysis techniques.
+- Improved identification and validation of Indicators of Compromise (IOCs).
+- Reinforced understanding of phishing attack delivery mechanisms and malicious attachments.
+- Enhanced the ability to correlate file artifacts with MITRE ATT&CK techniques during incident investigations.
+
 
 ## 🚧 Coming Soon
 
@@ -325,21 +461,23 @@ Perform static analysis on suspicious Windows PE files to identify malicious cha
 - Email IOC Extraction
 
 
-# ⚙️ Engineering Projects
+```markdown
 
+# ⚙️ Security Engineering
+
+```
 > Building practical security tooling, detection content, and analytics that support enterprise security operations.
-
 
 ## 🤖 Security Analytics & Machine Learning
 
-> Applying machine learning techniques to improve behavioural threat detection and anomaly identification in enterprise environments.
+> Applying machine learning techniques to improve behavioral threat detection and anomaly identification in enterprise environments.
 
 
-## 📌 Behavioural Anomaly Detection
+## 📌 Behavioral Anomaly Detection
 
 ### 🎯 Objective
 
-Develop an unsupervised machine learning pipeline for identifying anomalous behaviuor within synthetic enterprise security logs.
+Develop an unsupervised machine learning pipeline for identifying anomalous behavior within synthetic enterprise security logs.
 
 ### 🛠️ Technologies
 
@@ -359,7 +497,7 @@ Develop an unsupervised machine learning pipeline for identifying anomalous beha
 ### 🔍 Key Findings
 
 - Generated synthetic enterprise log datasets.
-- Engineered behavioural security features.
+- Engineered behavioral security features.
 - Compared multiple anomaly detection algorithms.
 - Evaluated model performance using multiple visualizations.
 
@@ -379,11 +517,11 @@ Develop an unsupervised machine learning pipeline for identifying anomalous beha
 - Improved feature engineering techniques for security event analysis.
 - Strengthened understanding of unsupervised machine learning models for anomaly detection.
 - Learned to evaluate and compare multiple detection algorithms using performance metrics and visualizations.
-- Enhanced the ability to translate behavioural analytics into practical threat detection use cases.
+- Enhanced the ability to translate behavioral analytics into practical threat detection use cases.
 
 ## 🚧 Coming Soon
 
-- User & Entity Behaviour Analytics (UEBA)
+- User & Entity Behavior Analytics (UEBA)
 - Insider Threat Detection
 - Time-Series Threat Detection
 - Explainable AI for Security
@@ -450,6 +588,20 @@ Develop a Python-based file signature analyzer capable of detecting true file ty
 - Detection-as-Code
 - ATT&CK Coverage Matrix
 
+---
+
+# 📜 Certifications
+
+Currently pursuing industry-recognized cybersecurity certifications.
+
+### Planned
+
+- CompTIA Security+
+- Splunk Core Certified Power User
+- Elastic Certified Analyst
+- GIAC GCFA (Long-term)
+
+---
 
 # 🌐 Community
 
@@ -487,7 +639,7 @@ Develop a Python-based file signature analyzer capable of detecting true file ty
 
 # 📝 Technical Articles
 
-Latest Publications
+## 📝 Featured Articles
 
 - [Locking Down Against Bad USB: Detection and Defense Strategies](https://allenace.medium.com/locking-down-against-bad-usb-detection-and-defense-strategies-daf329415393?sharedUserId=allenace)
 - [Wireshark: Getting to Know Wireshark](https://allenace.medium.com/wireshark-getting-to-know-wireshark-f8e19379cc50)
@@ -514,10 +666,10 @@ Latest Videos
 
 | Metric | Value |
 |--------|------:|
-| Security Investigations | 6 |
+| Security Investigations | 8+ |
 | Threat Hunting Investigations | 2 |
 | DFIR Investigations | 2 |
-| Malware Analysis Reports | 1 |
+| Malware Analysis Reports | 2 |
 | Machine Learning Projects | 1 |
 | Security Tools Developed | 1 |
 | Technical Articles Published | 70+ |
@@ -527,21 +679,20 @@ Latest Videos
 
 # 📫 Contact
 
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/allen-ace-soc-analyst/
-- 📖 **Medium:** https://allenace.medium.com
-- 💻 **GitHub:** https://github.com/0x0allenace
-- 🎥 **YouTube:** https://www.youtube.com/@PurpleOpsLab
-- 🐦 **X:** https://x.com/allen_acee
+- 🔗 [**LinkedIn:**](https://www.linkedin.com/in/allen-ace-soc-analyst/)
+- 📖 [**Medium:**](https://allenace.medium.com)
+- 💻 [**GitHub:**](https://github.com/0x0allenace)
+- 🎥 [**YouTube:**](https://www.youtube.com/@PurpleOpsLab)
+- 🐦 [**X:**](https://x.com/allen_acee)
 - 📧 **Email:** ejiakuallen@cyber-wizard.com
 
 
 ## 📈 GitHub Statistics
 
+![GitHub Followers](https://img.shields.io/github/followers/0x0allenace?style=social)
 ![Visitors](https://komarev.com/ghpvc/?username=0x0allenace&color=blue)
-
 ![GitHub Stars](https://img.shields.io/github/stars/0x0allenace/SOC-Analyst-Portfolio?style=social)
 
-![GitHub Followers](https://img.shields.io/github/followers/0x0allenace?style=social)
 
 <p align="center">
 
@@ -556,6 +707,19 @@ Latest Videos
 <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x0allenace&layout=compact&theme=github_dark&hide_border=true"/>
 
 </p>
+
+## 🤝 Let's Connect
+
+I'm always interested in discussing:
+
+- Security Operations (SOC)
+- Threat Hunting
+- Detection Engineering
+- Malware Analysis
+- Digital Forensics
+- Python Security Automation
+
+Feel free to connect with me on LinkedIn or explore my repositories.
 
 ## ⭐ Thank You
 
