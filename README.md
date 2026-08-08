@@ -666,7 +666,7 @@ Latest Videos
 - 📖 [**Medium**](https://allenace.medium.com)
 - 💻 [**GitHub**](https://github.com/0x0allenace)
 - 🎥 [**YouTube**](https://www.youtube.com/@PurpleOpsLab)
-- 🐦 [**X:**](https://x.com/allen_acee)
+- 🐦 [**X**](https://x.com/allen_acee)
 - 📧 **Email:** ejiakuallen@cyber-wizard.com
 
 
