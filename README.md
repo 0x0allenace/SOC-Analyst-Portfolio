@@ -12,9 +12,9 @@
 
 ## Welcome
 
-This portfolio documents my hands-on cybersecurity journey through practical investigations, enterprise lab environments, detection engineering, digital forensics, and security analytics.
+This portfolio documents my hands-on cybersecurity journey through practical investigations, enterprise lab environments, detection engineering, digital forensics, malware analysis, threat hunting, and security analytics.
 
-Each project is designed to demonstrate the investigative methodology, tooling, and defensive thinking expected within a modern Security Operations Center (SOC).
+Each project demonstrates investigative methodology, security tooling, evidence correlation, detection development, and defensive thinking expected within a modern Security Operations Center (SOC).
 
 <p align="center">
 
@@ -31,68 +31,72 @@ Each project is designed to demonstrate the investigative methodology, tooling, 
 ![Threat Hunting](https://img.shields.io/badge/Threat%20Hunting-0A66C2?style=for-the-badge)
 ![DFIR](https://img.shields.io/badge/DFIR-8A2BE2?style=for-the-badge)
 ![Digital Forensics](https://img.shields.io/badge/Digital%20Forensics-4B0082?style=for-the-badge)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-003366?style=for-the-badge)
+![Purple Team](https://img.shields.io/badge/Purple%20Team-6A1B9A?style=for-the-badge)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
 </p>
 
-
 ## 📚 Table of Contents
 
-- [About Me](#-about-me)
+- [About Me](#about-me)
+- [Portfolio Highlights](#portfolio-highlights)
+- [Current Focus](#current-focus)
+- [Featured Projects](#featured-projects)
 - [Technical Skills](#technical-skills)
-- [Investigations](#-investigations)
-- [Threat Hunting](#-threat-hunting)
-- [Malware Analysis](#-malware-analysis)
-- [Email Security](#-email-security)
-- [Engineering](#-engineering)
-- [Security Analytics & Machine Learning](#-security-analytics--machine-learning)
-- [Security Tool Development](#️-security-tool-development)
-- [Detection Engineering](#️-detection-engineering-planned)
-- [Community](#-community)
-- [Cybersecurity Journey](#️-my-cybersecurity-journey)
-- [Technical Articles](#-technical-articles)
-- [Video Walkthroughs](#-video-walkthroughs)
-- [Portfolio Statistics](#-portfolio-statistics)
-- [Contact](#-contact)
-
-
+- [Security Investigations](#security-investigations)
+- [Malware Analysis](#malware-analysis)
+- [Email Security](#email-security)
+- [Security Engineering](#security-engineering)
+- [Security Tool Development](#security-tool-development)
+- [Detection Engineering](#detection-engineering-planned)
+- [Certifications](#certifications)
+- [Community](#community)
+- [Cybersecurity Journey](#my-cybersecurity-journey)
+- [Technical Articles](#technical-articles)
+- [Video Walkthroughs](#video-walkthroughs)
+- [Portfolio Statistics](#portfolio-statistics)
+- [Contact](#contact)
 
 ## 👋 About Me
 
-SOC Analyst with hands-on experience in Threat Hunting, Digital
-Forensics & Incident Response (DFIR), Detection Engineering, Security
-Analytics, and Python-based security tooling. My work focuses on
-enterprise-style investigations aligned with the MITRE ATT&CK framework.
+SOC Analyst with hands-on experience in Threat Hunting, Digital Forensics & Incident Response (DFIR), Detection Engineering, Malware Analysis, Security Analytics, and Python-based security tooling.
 
+My work focuses on evidence-driven investigations, enterprise-style security monitoring, endpoint analysis, network analysis, malware investigations, memory forensics, and detection development aligned with the MITRE ATT&CK framework.
 
 ## Portfolio Highlights
 
-- 8+ Enterprise Security Investigations
+- 10+ Enterprise-style Security Investigations
+- Purple Team Attack Simulation & Defensive Investigation
 - Static & Dynamic Malware Analysis
+- Memory Forensics with Volatility 3 & MemProcFS
 - Digital Forensics & Incident Response (DFIR)
 - Threat Hunting with Splunk & Elastic
+- Detection Engineering & SIEM Correlation
+- Network Traffic & PCAP Analysis
 - Security Analytics & Machine Learning
 - Python Security Automation
 - Technical Writing & Community Education
 
 ---
 
-
 ## 🎯 Current Focus
 
 - Detection Engineering
 - Threat Hunting
+- Purple Team Operations
 - Malware Analysis
-- Digital Forensics (DFIR)
+- Digital Forensics & Incident Response
+- Memory Forensics
 - Python Security Automation
 
 ---
 
-# ⭐ Featured Projects
+## ⭐ Featured Projects
 
 | Project | Focus Area | Repository |
 |---------|------------|------------|
+| 🟣 Purple Team Simulation 01 | Attack Simulation / Detection Engineering | [View](https://github.com/0x0allenace/purple-team-simulation-01) |
+| 🧠 Memory Forensics Investigation | Memory Forensics / DFIR | [View](https://github.com/0x0allenace/memory-forensics-investigation) |
 | Threat Hunting – Reconnaissance | Splunk Threat Hunting | [View](https://github.com/0x0allenace/Threat-Hunting-Recon) |
 | Enterprise DFIR Lab | Incident Response | [View](https://github.com/0x0allenace/ecorp-initial-dfir-lab) |
 | Velociraptor Forensic Triage | Endpoint Forensics | [View](https://github.com/0x0allenace/velociraptor-forensic-triage-kape) |
@@ -115,51 +119,232 @@ enterprise-style investigations aligned with the MITRE ATT&CK framework.
 
 | Domain | Technologies |
 |---------|--------------|
-| SIEM | Splunk, Elastic |
-| Threat Hunting | SPL, MITRE ATT&CK |
+| SIEM | Splunk, Elastic Security |
+| Threat Hunting | SPL, EQL, KQL/Search-based Investigation, MITRE ATT&CK |
+| Detection Engineering | Sigma, SPL, EQL, Behavioral Detection, Sequence Detection |
 | DFIR | Velociraptor, KAPE, Autopsy, FTK Imager |
-| Malware Analysis | PEStudio, Detect It Easy, FLOSS, Procmon, Wireshark |
-| Detection Engineering | Sigma, SPL |
-| Endpoint Security | Sysmon, Windows Event Logs |
+| Memory Forensics | Volatility 3, MemProcFS |
+| Malware Analysis | PEStudio, Detect It Easy, FLOSS, Procmon, Process Explorer |
+| Network Analysis | Wireshark, PCAP Analysis, TCP/IP |
+| Endpoint Security | Sysmon, Windows Event Logs, Elastic Defend |
+| Purple Team | Attack Simulation, Defensive Validation, Detection Validation |
 | Programming | Python, PowerShell |
-| Networking | Wireshark, TCP/IP |
-| Infrastructure | Active Directory, pfSense |
+| Infrastructure | Active Directory, pfSense, Windows |
+| Evidence Analysis | IOC Extraction, Timeline Reconstruction, Process Analysis |
 
+## 🛡️ Security Investigations
 
-# 🛡️ Security Investigations
-> Enterprise-style investigations demonstrating real-world incident response, threat hunting, and forensic analysis.
+> Enterprise-style investigations demonstrating incident response, threat hunting, digital forensics, memory analysis, malware analysis, network forensics, and detection engineering.
 
-## 🔎 Threat Hunting
+### 🟣 Purple Team Simulation
+
+> Controlled adversary simulation followed by Blue Team detection, investigation, network forensics, and detection engineering.
+
+#### 🎯 Objective
+
+Conduct a controlled PowerShell-based attack simulation within an isolated laboratory environment and evaluate whether endpoint and network telemetry could be used to detect, investigate, reconstruct, and respond to the attack.
+
+#### 🛠️ Technologies
+
+- Elastic Security
+- Splunk
+- Sysmon
+- Wireshark
+- PowerShell
+- Kali Purple
+- Netcat
+- Python HTTP Server
+
+#### 🔍 Investigation Focus
+
+- PowerShell execution analysis
+- Windows process-tree reconstruction
+- Suspicious network activity
+- Reverse-shell detection
+- Network packet analysis
+- SIEM investigation
+- IOC identification
+- Timeline reconstruction
+- Detection engineering
+- Cross-tool evidence correlation
+
+#### 🎯 MITRE ATT&CK Mapping
+
+| Technique | ATT&CK ID |
+|-----------|-----------|
+| PowerShell | T1059.001 |
+| Command and Scripting Interpreter | T1059 |
+| Ingress Tool Transfer | T1105 |
+| System Owner/User Discovery | T1033 |
+| System Information Discovery | T1082 |
+| System Network Configuration Discovery | T1016 |
+| Network Service Scanning | T1046 |
+
+#### 🔍 Key Findings
+
+- Reconstructed the simulated attack chain from endpoint and network telemetry.
+- Identified suspicious PowerShell execution and process relationships.
+- Detected remote payload retrieval activity.
+- Identified and analyzed reverse-shell network communications.
+- Correlated Sysmon events with packet-level evidence.
+- Extracted host and network Indicators of Compromise.
+- Developed detection logic using both Elastic and Splunk.
+- Demonstrated the value of correlating endpoint, SIEM, and network evidence rather than relying on a single telemetry source.
+
+#### 📸 Evidence
+
+![Purple Team Investigation](images/purple-team-investigation.png)
+
+![SIEM Investigation](images/siem-investigation.png)
+
+![Network Analysis](images/network-analysis.png)
+
+#### 🔗 Repository
+
+[Purple Team Simulation — PowerShell Reverse Shell Detection & Investigation](https://github.com/0x0allenace/purple-team-simulation-01)
+
+#### 💡 Lessons Learned
+
+- Strengthened purple team methodology by connecting adversary simulation with defensive investigation.
+- Improved PowerShell and Windows process analysis.
+- Strengthened SIEM investigation and detection engineering skills across Splunk and Elastic.
+- Improved network forensic analysis using Wireshark and PCAP evidence.
+- Reinforced evidence correlation across endpoint, SIEM, and network telemetry.
+
+---
+
+### 🧠 Memory Forensics Investigation
+
+> Evidence-driven Windows memory forensics investigation using Volatility 3 and MemProcFS to identify suspicious processes, injected code, anomalous memory regions, loaded modules, network artifacts, and Indicators of Compromise.
+
+#### 🎯 Objective
+
+Analyze a captured Windows memory image to identify suspicious process activity, memory anomalies, injected code, loaded modules, network artifacts, and other evidence associated with potential compromise.
+
+#### 🛠️ Technologies
+
+- Volatility 3
+- MemProcFS
+- FLARE-VM
+- Procmon
+- Windows
+- Memory Forensics
+- Digital Forensics
+
+#### 🔍 Investigation Focus
+
+- Process analysis
+- Suspicious memory regions
+- Code injection analysis
+- PE and memory artifact analysis
+- Loaded module investigation
+- Network artifact analysis
+- Cross-tool forensic correlation
+- Timeline reconstruction
+- IOC extraction
+- Evidence integrity
+
+#### 🔬 Methodology
+
+The investigation followed an evidence-driven forensic workflow:
+
+```text
+Investigation Question
+        ↓
+Evidence Collection
+        ↓
+Artifact Identification
+        ↓
+Analysis
+        ↓
+Cross-Tool Correlation
+        ↓
+Finding
+        ↓
+IOC Extraction
+        ↓
+Detection / Response Opportunity
+```
+
+#### 🔍 Key Findings
+
+- Investigated suspicious process activity within a captured Windows memory image.
+- Analyzed anomalous memory regions and potential injected code.
+- Examined loaded modules and PE-related memory artifacts.
+- Investigated network artifacts associated with suspicious processes.
+- Correlated Volatility 3 and MemProcFS findings.
+- Extracted host and network Indicators of Compromise.
+- Documented findings using an evidence-driven forensic methodology.
+- Maintained supporting evidence, timelines, analyst notes, and forensic artifacts.
+
+#### 📊 Forensic Artifacts
+
+The investigation includes:
+
+- Executive Summary
+- Technical Investigation Report
+- Analyst Notebook
+- Execution Timeline
+- Findings
+- Host IOCs
+- Network IOCs
+- Volatility 3 artifacts
+- MemProcFS artifacts
+- Evidence integrity documentation
+- Supporting screenshots
+
+#### 📸 Evidence
+
+![Memory Analysis ProcMon](images/memory-analysis-procmon.png)
+
+![Malfind Memory Analysis](images/malfind-memory-analysis.png)
+
+![Volatility Pstree Tree Process Tree ](images/volatility-pstree-process-tree.png)
+
+#### 🔗 Repository
+
+[Memory Forensics Investigation](https://github.com/0x0allenace/memory-forensics-investigation)
+
+#### 💡 Lessons Learned
+
+- Strengthened Windows memory forensics methodology.
+- Improved process and memory artifact analysis.
+- Strengthened cross-tool forensic correlation using Volatility 3 and MemProcFS.
+- Improved identification and documentation of forensic Indicators of Compromise.
+- Reinforced evidence-driven investigation and incident-response workflows.
+
+---
+
+### 🔎 Threat Hunting
+
 > Leveraging SIEM technologies to proactively identify, investigate, and respond to adversary behavior using real-world datasets and the MITRE ATT&CK framework.
 
-## Threat Hunting – Reconnaissance
+#### Threat Hunting – Reconnaissance
 
-### Objective
+##### Objective
 
 Investigate reconnaissance activity within the BOTS v2 dataset using Splunk.
 
-### Technologies
+##### Technologies
 
 - Splunk
 - Windows Event Logs
 - MITRE ATT&CK
 
-### MITRE ATT&CK
+##### MITRE ATT&CK
 
 | Technique | ID |
 |-----------|----|
 | Active Scanning | T1595 |
 | Gather Victim Network Information | T1590 |
 
-
-### Key Findings
+##### Key Findings
 
 - Suspicious User-Agent identified
 - External IP pivot completed
 - IOC extraction performed
 
-### Screenshots
-
+##### Screenshots
 
 ![Threat Hunting Screenshot](images/companycontacts.png)
 
@@ -167,24 +352,24 @@ Investigate reconnaissance activity within the BOTS v2 dataset using Splunk.
 
 ![Threat Hunting Screenshot](images/recon.png)
 
-🔗 **Repository:** [View Project](https://github.com/0x0allenace/Threat-Hunting-Recon)
+##### 🔗 Repository
 
+[Threat Hunting – Reconnaissance](https://github.com/0x0allenace/Threat-Hunting-Recon)
 
-### 💡 Lessons Learned
+##### 💡 Lessons Learned
 
 - Improved Splunk investigation methodology.
 - Reinforced ATT&CK mapping skills.
 - Strengthened IOC correlation workflow.
 - Enhanced understanding of enterprise SOC investigations.
 
+#### 📌 Enterprise DFIR Lab
 
-## 📌 Enterprise DFIR Lab
-
-### 🎯 Objective
+##### 🎯 Objective
 
 Simulate an enterprise incident response environment using Active Directory, pfSense, Velociraptor, and attacker emulation.
 
-### 🛠️ Technologies
+##### 🛠️ Technologies
 
 - Velociraptor
 - Active Directory
@@ -193,7 +378,7 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 - KAPE
 - Sysmon
 
-### 🎯 MITRE ATT&CK Mapping
+##### 🎯 MITRE ATT&CK Mapping
 
 | Technique | ID |
 |-----------|----|
@@ -201,59 +386,44 @@ Simulate an enterprise incident response environment using Active Directory, pfS
 | Remote Services | T1021 |
 | Lateral Tool Transfer | T1570 |
 
-
-### 🔍 Key Findings
+##### 🔍 Key Findings
 
 - Conducted enterprise-wide investigation.
 - Collected forensic artifacts.
 - Contained compromised hosts.
 - Documented incident response workflow.
 
-### 📸 Screenshots
+##### 📸 Screenshots
 
 ![Enterprise Incident Response](images/02_domain_join_Admin.png)
+
 ![Enterprise Incident Response](images/Ecorp_firewall_rule.png.jpeg)
+
 ![Enterprise Incident Response](images/download-hunt-results.png)
 
-### 🔗 Repository
+##### 🔗 Repository
 
 - [Enterprise DFIR Lab](https://github.com/0x0allenace/ecorp-initial-dfir-lab)
 - [Velociraptor KAPE Forensic Triage](https://github.com/0x0allenace/velociraptor-forensic-triage-kape)
 
-### 💡 Lessons Learned
+##### 💡 Lessons Learned
 
-- Improved Velociraptor Artifact collection methodology.
+- Improved Velociraptor artifact collection methodology.
 - Reinforced victim isolation methodology.
 - Strengthened IOC correlation workflow.
 - Enhanced understanding of enterprise SOC investigations.
 
+## 🦠 Malware Analysis
 
-## 🚧 Coming Soon
+> Static and dynamic analysis of Windows malware samples to identify Indicators of Compromise, attacker techniques, malicious behaviors, and forensic artifacts using controlled malware analysis methodologies.
 
-- Memory Forensics
-- Registry Forensics
-- Disk Forensics
-- Windows Artifact Analysis
-- Timeline Analysis
-- KAPE Forensic Triage
-- Volatility Memory Analysis
+### 📌 Static Malware Analysis Report
 
+#### 🎯 Objective
 
+Perform static analysis on suspicious Windows PE files to identify malicious characteristics, extract Indicators of Compromise, and document findings using an enterprise-style malware analysis methodology.
 
-# 🦠 Malware Analysis
-
-> Static and dynamic analysis of Windows malware samples to identify Indicators of Compromise (IOCs), attacker techniques, malicious behaviors, and forensic artifacts using enterprise-style malware analysis methodologies.
-
----
-
-
-## 📌 Static Malware Analysis Report
-
-### 🎯 Objective
-
-Perform static analysis on suspicious Windows PE files to identify malicious characteristics, extract Indicators of Compromise (IOCs), and document findings using an enterprise-style malware analysis methodology.
-
-### 🛠️ Technologies
+#### 🛠️ Technologies
 
 - PEStudio
 - Detect It Easy (DIE)
@@ -263,15 +433,14 @@ Perform static analysis on suspicious Windows PE files to identify malicious cha
 - Hash Analysis
 - Windows PE Format
 
-### 🎯 MITRE ATT&CK Mapping
+#### 🎯 MITRE ATT&CK Mapping
 
 | Technique | ID |
 |-----------|----|
-| Malware | T1587 |
 | Masquerading | T1036 |
 | Obfuscated Files or Information | T1027 |
 
-### 🔍 Key Findings
+#### 🔍 Key Findings
 
 - Identified suspicious PE characteristics.
 - Extracted file hashes and Indicators of Compromise.
@@ -279,7 +448,7 @@ Perform static analysis on suspicious Windows PE files to identify malicious cha
 - Analyzed embedded strings and metadata.
 - Documented suspicious behaviors without executing the samples.
 
-### 📸 Screenshots
+#### 📸 Screenshots
 
 ![Static Malware Analysis](images/capa-capabilities.png)
 
@@ -287,24 +456,24 @@ Perform static analysis on suspicious Windows PE files to identify malicious cha
 
 ![Static Malware Analysis](images/floss-decoded.png)
 
-🔗 **Repository:** [Static Malware Analysis Report](https://github.com/0x0allenace/static-malware-analysis-report)
+#### 🔗 Repository
 
-### 💡 Lessons Learned
+[Static Malware Analysis Report](https://github.com/0x0allenace/static-malware-analysis-report)
+
+#### 💡 Lessons Learned
 
 - Strengthened Windows PE file analysis techniques.
 - Improved malware triage methodology using static analysis.
 - Reinforced IOC extraction and documentation workflows.
 - Enhanced understanding of executable structures and suspicious artifacts.
 
-## 📌 Windows Malware Behavioral Analysis
+### 📌 Windows Malware Behavioral Analysis
 
-### 🎯 Objective
+#### 🎯 Objective
 
-Analyze the runtime behavior of a Windows malware sample within a controlled malware analysis laboratory to identify malicious activities, persistence mechanisms, process behavior, network communications, and Indicators of Compromise (IOCs).
+Analyze the runtime behavior of a Windows malware sample within a controlled malware analysis laboratory to identify malicious activities, persistence mechanisms, process behavior, network communications, and Indicators of Compromise.
 
----
-
-### 🛠️ Technologies
+#### 🛠️ Technologies
 
 - REMnux
 - FLARE VM
@@ -316,9 +485,7 @@ Analyze the runtime behavior of a Windows malware sample within a controlled mal
 - Sysmon
 - Windows Event Logs
 
----
-
-### 🔄 Analysis Workflow
+#### 🔄 Analysis Workflow
 
 - Initial malware triage
 - Process analysis
@@ -328,8 +495,7 @@ Analyze the runtime behavior of a Windows malware sample within a controlled mal
 - IOC extraction
 - MITRE ATT&CK mapping
 
-
-### 🎯 MITRE ATT&CK Mapping
+#### 🎯 MITRE ATT&CK Mapping
 
 | Technique | ATT&CK ID |
 |-----------|-----------|
@@ -340,25 +506,16 @@ Analyze the runtime behavior of a Windows malware sample within a controlled mal
 | File and Directory Discovery | T1083 |
 | Application Layer Protocol | T1071 |
 
----
-
-### 🔍 Key Findings
+#### 🔍 Key Findings
 
 - Executed malware safely inside an isolated analysis environment.
-
 - Observed process creation and parent-child relationships.
-
 - Identified persistence mechanisms and registry modifications.
-
 - Analyzed filesystem activity and dropped artifacts.
-
 - Captured network communications and extracted Indicators of Compromise.
+- Documented behavioral findings using a structured malware analysis workflow.
 
-- Documented behavioral findings using an enterprise malware analysis workflow.
-
----
-
-### 📸 Screenshots
+#### 📸 Screenshots
 
 ![Process Tree](images/process-tree.png)
 
@@ -370,98 +527,82 @@ Analyze the runtime behavior of a Windows malware sample within a controlled mal
 
 ![Wireshark Capture](images/wireshark-traffic.png)
 
-### 🔗 Repository
+#### 🔗 Repository
 
 [Windows Malware Behavioral Analysis](https://github.com/0x0allenace/windows-malware-behavioral-analysis)
 
----
-
-### 💡 Lessons Learned
+#### 💡 Lessons Learned
 
 - Strengthened dynamic malware analysis methodology.
 - Improved behavioral IOC identification and correlation.
 - Reinforced process, registry, and network activity analysis.
 - Enhanced understanding of malware execution and persistence techniques.
 
----
-
-
-# 📧 Email Security
+## 📧 Email Security
 
 > Investigation of phishing emails, malicious attachments, and email-based attack vectors.
 
-## 📌 Suspicious Email Attachment Analysis
+### 📌 Suspicious Email Attachment Analysis
 
-### 🎯 Objective
+#### 🎯 Objective
 
 Analyze suspicious email attachments within a controlled environment to determine malicious intent and identify Indicators of Compromise.
 
-### 🛠️ Technologies
+#### 🛠️ Technologies
 
 - VirusTotal
 - PE Studio
 - File Signature Analysis
 - Static Analysis
 
-### 🎯 MITRE ATT&CK Mapping
+#### 🎯 MITRE ATT&CK Mapping
 
 | Technique | ATT&CK ID |
 |-----------|-----------|
 | Phishing | T1566 |
 | User Execution | T1204 |
 
-### 🔍 Key Findings
+#### 🔍 Key Findings
 
 - Verified true file type.
 - Examined embedded artifacts.
 - Assessed malicious behavior.
 - Documented findings.
 
-### 📸 Screenshots
-
+#### 📸 Screenshots
 
 ![Email Attachment Analysis](images/vt02.jpeg)
+
 ![Email Attachment Analysis](images/triagebehavioralactivity.png)
+
 ![Email Attachment Analysis](images/virustotal_report.png)
 
+#### 🔗 Repository
 
-🔗 **Repository:** [View Project](https://github.com/0x0allenace/suspicious-email-attachment-analysis)
+[Suspicious Email Attachment Analysis](https://github.com/0x0allenace/suspicious-email-attachment-analysis)
 
-
-### 💡 Lessons Learned
+#### 💡 Lessons Learned
 
 - Strengthened malware triage and static analysis techniques.
-- Improved identification and validation of Indicators of Compromise (IOCs).
+- Improved identification and validation of Indicators of Compromise.
 - Reinforced understanding of phishing attack delivery mechanisms and malicious attachments.
-- Enhanced the ability to correlate file artifacts with MITRE ATT&CK techniques during incident investigations.
+- Enhanced ability to correlate file artifacts with MITRE ATT&CK techniques during incident investigations.
 
-
-## 🚧 Coming Soon
-
-- Email Header Analysis
-- Email Body Analysis
-- Business Email Compromise Investigation
-- SPF / DKIM / DMARC Validation
-- Email IOC Extraction
-
-
-
-# ⚙️ Security Engineering
+## ⚙️ Security Engineering
 
 > Building practical security tooling, detection content, and analytics that support enterprise security operations.
 
-## 🤖 Security Analytics & Machine Learning
+### 🤖 Security Analytics & Machine Learning
 
 > Applying machine learning techniques to improve behavioral threat detection and anomaly identification in enterprise environments.
 
+#### 📌 Behavioral Anomaly Detection
 
-## 📌 Behavioral Anomaly Detection
-
-### 🎯 Objective
+##### 🎯 Objective
 
 Develop an unsupervised machine learning pipeline for identifying anomalous behavior within synthetic enterprise security logs.
 
-### 🛠️ Technologies
+##### 🛠️ Technologies
 
 - Python
 - Pandas
@@ -469,21 +610,21 @@ Develop an unsupervised machine learning pipeline for identifying anomalous beha
 - PyTorch
 - Jupyter Notebook
 
-### 🤖 Models
+##### 🤖 Models
 
 - Isolation Forest
 - Local Outlier Factor
 - One-Class SVM
 - Autoencoder
 
-### 🔍 Key Findings
+##### 🔍 Key Findings
 
 - Generated synthetic enterprise log datasets.
 - Engineered behavioral security features.
 - Compared multiple anomaly detection algorithms.
 - Evaluated model performance using multiple visualizations.
 
-### 📸 Screenshots
+##### 📸 Screenshots
 
 ![Security Anomaly Detection Screenshot](images/fig1_risk_score_distribution.png)
 
@@ -491,72 +632,52 @@ Develop an unsupervised machine learning pipeline for identifying anomalous beha
 
 ![Security Anomaly Detection Screenshot](images/fig7_sensitivity_f1.png)
 
-🔗 **Repository:** [View Project](https://github.com/0x0allenace/security-anomaly-project)
+##### 🔗 Repository
 
+[Behavioral Anomaly Detection](https://github.com/0x0allenace/security-anomaly-project)
 
-### 💡 Lessons Learned
+##### 💡 Lessons Learned
 
 - Improved feature engineering techniques for security event analysis.
 - Strengthened understanding of unsupervised machine learning models for anomaly detection.
 - Learned to evaluate and compare multiple detection algorithms using performance metrics and visualizations.
-- Enhanced the ability to translate behavioral analytics into practical threat detection use cases.
+- Enhanced ability to translate behavioral analytics into practical threat detection use cases.
 
-## 🚧 Coming Soon
-
-- User & Entity Behavior Analytics (UEBA)
-- Insider Threat Detection
-- Time-Series Threat Detection
-- Explainable AI for Security
-- Graph-Based Threat Analytics
-
-
-# 🛠️ Security Tool Development
+## 🛠️ Security Tool Development
 
 > Lightweight security utilities developed to automate common Blue Team and DFIR workflows.
-> These tools demonstrate practical scripting ability applied to real security operations challenges.
 
+### 📌 File Signature Detector
 
-## 📌 File Signature Detector
-
-### 🎯 Objective
+#### 🎯 Objective
 
 Develop a Python-based file signature analyzer capable of detecting true file types using magic bytes.
 
-### 🛠️ Technologies
+#### 🛠️ Technologies
 
 - Python
 - Magic Bytes
 - Binary Analysis
 
-### ⚙️ Features
+#### ⚙️ Features
 
 - True file type detection
 - Malware triage support
 - Reverse engineering assistance
 - DFIR artifact validation
 
+#### 🔗 Repository
 
-🔗 **Repository:** [View Project](https://github.com/0x0allenace/file-signature-detector)
+[File Signature Detector](https://github.com/0x0allenace/file-signature-detector)
 
+#### 💡 Lessons Learned
 
-### 💡 Lessons Learned
+- Improved understanding of file signature analysis for file type validation.
+- Reinforced Python programming skills through development of a practical security utility.
+- Strengthened malware triage techniques by identifying files based on their binary signatures.
+- Enhanced appreciation for file validation as a critical step in DFIR workflows.
 
-- Improved understanding of file signature (magic byte) analysis for file type validation.
-- Reinforced Python programming skills through the development of a practical security utility.
-- Strengthened malware triage techniques by identifying files based on their true binary signatures.
-- Enhanced appreciation for file validation as a critical step in digital forensics and incident response workflows.
-
-## 🚧 Coming Soon
-
-- IOC Extractor
-- IOC Enrichment Tool
-- Log Parser
-- Hash Analyzer
-- Threat Intelligence Aggregator
-- Detection Rule Generator
-
-
-# ⚙️ Detection Engineering *(Planned)*
+## ⚙️ Detection Engineering *(Planned)*
 
 > Designing and validating production-ready detections mapped to the MITRE ATT&CK® framework.
 
@@ -570,9 +691,7 @@ Develop a Python-based file signature analyzer capable of detecting true file ty
 - Detection-as-Code
 - ATT&CK Coverage Matrix
 
----
-
-# 📜 Certifications
+## 📜 Certifications
 
 Currently pursuing industry-recognized cybersecurity certifications.
 
@@ -583,14 +702,11 @@ Currently pursuing industry-recognized cybersecurity certifications.
 - Elastic Certified Analyst
 - GIAC GCFA (Long-term)
 
----
-
-# 🌐 Community
+## 🌐 Community
 
 > Sharing knowledge through technical writing, walkthroughs, and continuous learning.
 
-
-# 🗺️ My Cybersecurity Journey
+## 🗺️ My Cybersecurity Journey
 
 ### 2023
 
@@ -614,14 +730,15 @@ Currently pursuing industry-recognized cybersecurity certifications.
 
 ### 2026
 
-- Building a detection engineering portfolio.
-- Expanding SIEM detection capabilities.
-- Pursuing remote SOC and Threat Hunting opportunities.
+- Expanded into purple team operations and detection validation.
+- Completed memory forensics investigations using Volatility 3 and MemProcFS.
+- Continued developing detection engineering capabilities.
+- Expanded malware analysis and DFIR portfolio.
+- Pursuing remote SOC, Threat Hunting, DFIR, and Detection Engineering opportunities.
 
+## 📝 Technical Articles
 
-# 📝 Technical Articles
-
-## 📝 Featured Articles
+### 📝 Featured Articles
 
 - [Locking Down Against Bad USB: Detection and Defense Strategies](https://allenace.medium.com/locking-down-against-bad-usb-detection-and-defense-strategies-daf329415393?sharedUserId=allenace)
 - [Wireshark: Getting to Know Wireshark](https://allenace.medium.com/wireshark-getting-to-know-wireshark-f8e19379cc50)
@@ -629,38 +746,42 @@ Currently pursuing industry-recognized cybersecurity certifications.
 - [MemProcFS: The Game Changer in Memory Forensics](https://allenace.medium.com/memprocfs-the-game-changer-in-memory-forensics-463799a87aae)
 - [Static Malware Analysis of Suspicious Windows PE Samples: A Blue Team Investigation](https://medium.com/@allenace/static-malware-analysis-of-suspicious-windows-pe-samples-a-blue-team-investigation-6c1e1b178513)
 - [Behavioral Malware Analysis: Investigating a Multi-Stage Malware Sample Inside an Isolated Lab](https://allenace.medium.com/behavioral-malware-analysis-investigating-a-multi-stage-malware-sample-inside-an-isolated-lab-fba44d152d5b)
-- Detection Engineering *(planned)*
+- [Memory Forensics Investigation Report](https://medium.com/@allenace/memory-forensics-investigation-report-a4487778c1d7)
+- [Purple Team Simulation: Detecting and Investigating a Simulated PowerShell Reverse Shell](https://medium.com/@allenace/purple-team-simulation-detecting-and-investigating-a-simulated-powershell-reverse-shell-81029b69b946)
+
 View all articles → [Medium](https://allenace.medium.com/)
 
+## 🎥 Video Walkthroughs
 
-# 🎥 Video Walkthroughs
+### Latest Videos
 
-Latest Videos
-
-- [Blue Team Detection Lab](https://www.youtube.com/watch?v=XnsfWq4TmLQ)   
+- [Blue Team Detection Lab](https://www.youtube.com/watch?v=XnsfWq4TmLQ)
 - Mythic C2 Lab *(planned)*
+- Purple Team Simulation *(planned)*
+- Memory Forensics Walkthrough *(planned)*
 - Threat Hunting *(planned)*
 - Active Directory Lab *(planned)*
 - Elastic SIEM *(planned)*
 - DFIR Walkthrough *(planned)*
 
-
 ## 📊 Portfolio Statistics
 
 | Metric | Value |
 |--------|------:|
-| Security Investigations | 8+ |
-| Threat Hunting Investigations | 2 |
-| DFIR Investigations | 2 |
+| Security Investigations | 10+ |
+| Threat Hunting Investigations | 2+ |
+| DFIR Investigations | 3+ |
 | Malware Analysis Reports | 2 |
+| Purple Team Exercises | 1 |
+| Memory Forensics Investigations | 1 |
 | Machine Learning Projects | 1 |
 | Security Tools Developed | 1 |
-| Technical Articles Published | 70+ |
+| Technical Articles Published | 80+ |
 | Video Walkthroughs | 5 |
-| MITRE ATT&CK Techniques Covered | 12+ |
+| MITRE ATT&CK Techniques Covered | 15+ |
 | Languages | Python, PowerShell |
 
-# 📫 Contact
+## 📫 Contact
 
 - 🔗 [**LinkedIn**](https://www.linkedin.com/in/allen-ace-soc-analyst/)
 - 📖 [**Medium**](https://allenace.medium.com)
@@ -669,13 +790,13 @@ Latest Videos
 - 🐦 [**X**](https://x.com/allen_acee)
 - 📧 **Email:** ejiakuallen@cyber-wizard.com
 
-
-## 📈 GitHub Statistics
+### 📈 GitHub Statistics
 
 ![GitHub Followers](https://img.shields.io/github/followers/0x0allenace?style=social)
-![Visitors](https://komarev.com/ghpvc/?username=0x0allenace&color=blue)
-![GitHub Stars](https://img.shields.io/github/stars/0x0allenace/SOC-Analyst-Portfolio?style=social)
 
+![Visitors](https://komarev.com/ghpvc/?username=0x0allenace&color=blue)
+
+![GitHub Stars](https://img.shields.io/github/stars/0x0allenace/SOC-Analyst-Portfolio?style=social)
 
 <p align="center">
 
@@ -698,8 +819,10 @@ I'm always interested in discussing:
 - Security Operations (SOC)
 - Threat Hunting
 - Detection Engineering
+- Purple Team Operations
 - Malware Analysis
 - Digital Forensics
+- Memory Forensics
 - Python Security Automation
 
 Feel free to connect with me on LinkedIn or explore my repositories.
@@ -710,4 +833,4 @@ Thank you for visiting my cybersecurity portfolio.
 
 If you found these investigations useful, feel free to connect with me on LinkedIn, follow my work on Medium, or explore my repositories on GitHub.
 
-I am always open to discussing cybersecurity, threat hunting, DFIR, and remote Security Operations opportunities.
+I am always open to discussing cybersecurity, threat hunting, DFIR, detection engineering, and remote Security Operations opportunities.
