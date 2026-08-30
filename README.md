@@ -538,7 +538,7 @@ Analyze the runtime behavior of a Windows malware sample within a controlled mal
 - Reinforced process, registry, and network activity analysis.
 - Enhanced understanding of malware execution and persistence techniques.
 
-## 📧 Email Security
+## Email Security
 
 > Investigation of phishing emails, malicious attachments, and email-based attack vectors.
 
