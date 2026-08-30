@@ -36,7 +36,7 @@ Each project demonstrates investigative methodology, security tooling, evidence 
 
 </p>
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [About Me](#about-me)
 - [Portfolio Highlights](#portfolio-highlights)
@@ -57,7 +57,7 @@ Each project demonstrates investigative methodology, security tooling, evidence 
 - [Portfolio Statistics](#portfolio-statistics)
 - [Contact](#contact)
 
-## 👋 About Me
+## About Me
 
 SOC Analyst with hands-on experience in Threat Hunting, Digital Forensics & Incident Response (DFIR), Detection Engineering, Malware Analysis, Security Analytics, and Python-based security tooling.
 
@@ -79,7 +79,7 @@ My work focuses on evidence-driven investigations, enterprise-style security mon
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 
 - Detection Engineering
 - Threat Hunting
@@ -140,7 +140,7 @@ My work focuses on evidence-driven investigations, enterprise-style security mon
 
 > Controlled adversary simulation followed by Blue Team detection, investigation, network forensics, and detection engineering.
 
-#### 🎯 Objective
+#### Objective
 
 Conduct a controlled PowerShell-based attack simulation within an isolated laboratory environment and evaluate whether endpoint and network telemetry could be used to detect, investigate, reconstruct, and respond to the attack.
 
